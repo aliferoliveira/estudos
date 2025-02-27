@@ -1,0 +1,55 @@
+arquivo .gitignore para ignorar arquivos
+
+COMANDO CD: SE MOVE ENTRE PASTAS
+
+cd arquivo = vai até uma pasta
+cd .. = volta de uma pasta
+
+COMANDO GIT: MODIFICA ARQUIVOS
+
+AULA 2 : COMANDOS FUNDAMENTAIS
+
+git config --global user.name ou user.email = configura o usuário
+git init = inicia um repositório em uma pasta
+
+
+git status = mostra se há arquivos a serem adicionados ou pra dar commit
+git add = adiciona um arquivo a staging area
+git commit -m "" = coloca o arquivo no repositório
+git commit -a -m "" = commit direto sem precisar add
+
+AULA 3 : LOG, CONTROLE DE DADOS
+
+git diff = serve para visualizar o que foi alterado no arquivo, antes da staging area
+git log = serve para visualizar tudo arquivos que foram alterado
+git log -p = visualizar o que foi alterado nos arquivos
+git log -p NUMERO = visualizar de forma mais resumida
+git log --pretty=oneline = visualizar o código do commit e as "" colocadas, resumido
+gitk = uma interface com o log facilitando pra ver tudo
+
+AULA 4 : RESTAUÇÃO DE ARQUIVOS, CORREÇÃO DE ERROS
+
+git commit --amend -m "" = caso queira colocar mais um arquivo dentro do commit
+git restore --staged >file< = tirar um arquivo que foi adicionado na staging area 
+git restore >file< = restaurar arquivo, tirar as mudanças que foram feitas
+
+
+AULA 5 :
+
+git tag -a name -m "" = cria uma nova tag, pode ser usada como versoes
+git show = mostra todas as tags criadas
+git checkout = vai para uma tag
+git checkout master = volta para a versão atual
+git tag -d = apaga uma tag
+
+git branch >name<= cria um branch, pode ser usado como um teste
+git checkout -b = criar uma branch e ir para ela
+git merge >origem< = passa as alterações de um branch para outro, pode trazer o que foi alterado no teste
+git branch -d >file< = apaga um branch
+
+AULA 7 :
+
+
+sshkeygen = cria uma chave para conectar ao GitHub
+git clone = copia um repositório, usado com a chave
+git push origin master = manda os arquivos do repositório para o github
