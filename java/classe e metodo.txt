@@ -1,0 +1,5 @@
+public classic MeuNomeEAlifer {
+	public static main void (String[] args)
+		System.out.println ("ONE STEP AT A TIME, ONE ROUND AT A TIME, ONE PUNCH AT A TIME"),	
+	}
+}
