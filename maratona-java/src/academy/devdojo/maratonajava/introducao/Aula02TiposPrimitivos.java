@@ -3,15 +3,15 @@ package academy.devdojo.maratonajava.introducao;
 public class Aula02TiposPrimitivos {
     public static void main(String[] args) {
         // int, double, float, char, byte, short, long, boolean
-        int idade = (int) 10000000000L;
-        long numeroGrande = (long) 150.23D;
-        double salarioDouble = 2000.0D;
+        int idade = (int) 10;
+        long numeroGrande = (long) 10000;
+        double salarioDouble = 2000;
         float salarioFloat = 2500.0F;
-        byte idadeByte = 127;
+        byte idadeByte = 10;
         short idadeShort = 10;
         boolean verdadeiro = true;
         boolean falso = false;
-        char caractere = 12;
+        char caracter = 'M';
         String nome = "Alifer Blake";
 
         System.out.println("A idade é: "+idade+" anos");
