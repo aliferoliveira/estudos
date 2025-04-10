@@ -1,4 +1,4 @@
-package br.com.testes;
+package br.com.testes.exercicios01;
 
 public class teste01 {
     public static void main(String[] args) {

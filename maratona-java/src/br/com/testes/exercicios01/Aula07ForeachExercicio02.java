@@ -1,4 +1,4 @@
-package br.com.testes;
+package br.com.testes.exercicios01;
 
 public class Aula07ForeachExercicio02 {
     // Contagem de Palavras:

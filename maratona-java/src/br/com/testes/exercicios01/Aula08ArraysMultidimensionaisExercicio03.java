@@ -1,4 +1,4 @@
-package br.com.testes;
+package br.com.testes.exercicios01;
 
 public class Aula08ArraysMultidimensionaisExercicio03 {
     //Crie uma matriz 4×4 preenchida com números aleatórios entre 1 e 100.

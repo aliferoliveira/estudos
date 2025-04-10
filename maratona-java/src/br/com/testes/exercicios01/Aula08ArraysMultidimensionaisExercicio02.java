@@ -1,4 +1,4 @@
-package br.com.testes;
+package br.com.testes.exercicios01;
 
 public class Aula08ArraysMultidimensionaisExercicio02 {
     // Crie uma matriz 3×3 com valores fixos e calcule a soma de todos os seus elementos.

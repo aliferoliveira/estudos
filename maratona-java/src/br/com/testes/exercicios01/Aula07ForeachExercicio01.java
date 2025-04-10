@@ -1,4 +1,4 @@
-package br.com.testes;
+package br.com.testes.exercicios01;
 
 public class Aula07ForeachExercicio01 {
     /* Soma de Elementos:
